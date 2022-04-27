@@ -1,11 +1,15 @@
-// import logo from './logo.svg';
+import React from 'react';
 import './index.css';
 import Calculator from './Calculor/calculor';
-
-function App() {
-  return (
-    <><Calculator /></>
-  );
+// eslint-disable-next-line react/prefer-stateless-function
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Calculator />
+      </div>
+    );
+  }
 }
 
 export default App;
