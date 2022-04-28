@@ -3,7 +3,7 @@ This is an App that allow the user to operate calculation
 
 ## Deployment
 
-[link to my project]()
+[link to my project](https://yannickzahinda.github.io/math-magician/)
 
 ## Build with
 
