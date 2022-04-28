@@ -7,14 +7,6 @@ function Calculator() {
     next: null,
     operation: null,
   });
-
-  // const checkState = (next, total, operation) => {
-  //   if (next === null && total === null) {
-  //     setState({ next, total: '0', operation });
-  //   } else {
-  //     setState({ next, total, operation });
-  //   }
-  // };
   const { total, next, operation } = state;
   const handleClick = (e) => {
     e.preventDefault();
