@@ -13,8 +13,12 @@ React
 
 run
 ```
- npm install 
- ```
+git clone   https://github.com/YannickZahinda/math-magician
+
+cd math-magician
+
+npm install 
+```
  to install dependencies:
 
 ## Run into the Browser
@@ -27,6 +31,10 @@ To start the app in the development mode
 # Live Demo
 
 [link to my math Magician]( https://yannickzahinda.github.io/To-do-list/)
+
+# Screenshot of the project 
+
+<img width="1280" alt="Screen Shot 2022-04-27 at 15 54 07" src="https://user-images.githubusercontent.com/91213045/165535119-fad7da10-168f-4c09-aac3-786507af917b.png">
 
 👤 **Yannick**
 
