@@ -1,76 +1,96 @@
 import React from 'react';
+import calculate from '../logic/calculate';
 // eslint-disable-next-line react/prefer-stateless-function
-export default class Calculator extends React.Component {
+class Calculator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      total: 0,
+      next: null,
+      operation: null,
+    };
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick(e) {
+    this.setState((prevState) => calculate(prevState, e.target.id));
+  }
+
   render() {
+    const { total, next, operation } = this.state;
     return (
       <div className="App">
         <div className="my-calculator">
-          <div className="Monitor">0</div>
+          <div className="Monitor">
+            <span>{total}</span>
+            <span>{operation}</span>
+            <span>{next}</span>
+          </div>
           <div className="buttons">
             <div className="grid-row-one">
-              <button type="button" id="clear-all">
+              <button onClick={this.handleClick} type="button" id="AC">
                 AC
               </button>
-              <button type="button" id="negative">
+              <button onClick={this.handleClick} type="button" id="+/-">
                 +/-
               </button>
-              <button type="button" id="percentage">
+              <button onClick={this.handleClick} type="button" id="%">
                 %
               </button>
-              <button type="button" value="division" id="division">
+              <button onClick={this.handleClick} type="button" value="division" id="/">
                 /
               </button>
             </div>
             <div className="grid-row-two">
-              <button type="button" value="7" id="7">
+              <button onClick={this.handleClick} type="button" value="7" id="7">
                 7
               </button>
-              <button type="button" value="8" id="8">
+              <button onClick={this.handleClick} type="button" value="8" id="8">
                 8
               </button>
-              <button type="button" value="9" id="9">
+              <button onClick={this.handleClick} type="button" value="9" id="9">
                 9
               </button>
-              <button type="button" value="*" id="mulitiplication">
+              <button onClick={this.handleClick} type="button" value="*" id="x">
                 x
               </button>
             </div>
             <div className="grid-row-three">
-              <button type="button" value="4" id="4">
+              <button onClick={this.handleClick} type="button" value="4" id="4">
                 4
               </button>
-              <button type="button" value="5" id="5">
+              <button onClick={this.handleClick} type="button" value="5" id="5">
                 5
               </button>
-              <button type="button" value="6" id="6">
+              <button onClick={this.handleClick} type="button" value="6" id="6">
                 6
               </button>
-              <button type="button" value="-" id="subtraction">
+              <button onClick={this.handleClick} type="button" value="-" id="-">
                 -
               </button>
             </div>
             <div className="grid-row-four">
-              <button type="button" value="1" id="1">
+              <button onClick={this.handleClick} type="button" value="1" id="1">
                 1
               </button>
-              <button type="button" value="2" id="2">
+              <button onClick={this.handleClick} type="button" value="2" id="2">
                 2
               </button>
-              <button type="button" value="3" id="3">
+              <button onClick={this.handleClick} type="button" value="3" id="3">
                 3
               </button>
-              <button type="button" value="+" id="addition">
+              <button onClick={this.handleClick} type="button" value="+" id="+">
                 +
               </button>
             </div>
             <div className="grid-row-five">
-              <button type="button" value="0" id="zero">
+              <button onClick={this.handleClick} type="button" value="0" id="0">
                 0
               </button>
-              <button type="button" value="." id="dot">
+              <button onClick={this.handleClick} type="button" value="." id=".">
                 .
               </button>
-              <button type="button" value="=" id="equals">
+              <button onClick={this.handleClick} type="button" value="=" id="=">
                 =
               </button>
             </div>
@@ -81,4 +101,4 @@ export default class Calculator extends React.Component {
   }
 }
 
-// export default Calculator;
+export default Calculator;
