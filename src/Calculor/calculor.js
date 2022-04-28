@@ -31,8 +31,8 @@ function Calculator() {
             <button onClick={handleClick} type="button" id="%">
               %
             </button>
-            <button onClick={handleClick} type="button" value="division" id="/">
-              /
+            <button onClick={handleClick} type="button" value="division" id="÷">
+            ÷
             </button>
           </div>
           <div className="grid-row-two">
