@@ -1,10 +1,5 @@
 ## Math Magician
 This is an App that allow the user to operate calculation
-
-## Deployment
-
-[link to my project](https://yannickzahinda.github.io/math-magician/)
-
 ## Build with
 
 React
@@ -27,10 +22,6 @@ npm install
 npm start
 ```
 To start the app in the development mode
-
-# Live Demo
-
-[link to my math Magician]( https://yannickzahinda.github.io/To-do-list/)
 
 # Screenshot of the project 
 
