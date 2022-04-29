@@ -33,6 +33,4 @@ To start the app in the development mode
 - Twitter: [@ZahindaY](https://twitter.com/ZahindaY)
 - LinkedIn: [Yannick MULIKUZA](https://linkedin.com/in/linkedinhandle)
 
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+# Give a ⭐ to show some 🤟
