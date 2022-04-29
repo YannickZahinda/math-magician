@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
-// eslint-disable-next-line react/prefer-stateless-function
-function Calculator() {
+
+const Calculator = () => {
   const [state, setState] = useState({
     total: 0,
     next: null,
@@ -92,6 +92,6 @@ function Calculator() {
       </div>
     </div>
   );
-}
+};
 
 export default Calculator;
