@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 import NavBar from './components/nav';
+
 const Calculator = () => {
   const [state, setState] = useState({
     total: 0,
