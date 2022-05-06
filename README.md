@@ -25,7 +25,7 @@ To start the app in the development mode
 
 # Screenshot of the project 
 
-<img width="1280" alt="Screen Shot 2022-04-27 at 15 54 07" src="https://user-images.githubusercontent.com/91213045/165535119-fad7da10-168f-4c09-aac3-786507af917b.png">
+<img width="1266" alt="Screen Shot 2022-05-04 at 19 03 59" src="https://user-images.githubusercontent.com/91213045/166741111-36e1dca6-fb1f-43c6-b03a-372d76d7370c.png">
 
 👤 **Yannick**
 

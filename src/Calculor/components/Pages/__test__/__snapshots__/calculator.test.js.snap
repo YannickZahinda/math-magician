@@ -1,0 +1,484 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator component test Renders 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="App"
+      >
+        <header
+          class="nav-header"
+        >
+          <h1
+            class="title-header"
+          >
+            Math Magician
+          </h1>
+          <div
+            class="navbar-link"
+          >
+            <a
+              aria-current="page"
+              class="nav-active active"
+              href="/"
+            >
+              Home
+            </a>
+            <a
+              class="nav-active"
+              href="/Calculator"
+            >
+              Calculator
+            </a>
+            <a
+              class="nav-active"
+              href="/Quote"
+            >
+              Quote
+            </a>
+          </div>
+        </header>
+        <div
+          class="calculation-interface"
+        >
+          <h1>
+            Let's do some math !
+          </h1>
+          <div
+            class="my-calculator"
+          >
+            <div
+              class="Monitor"
+            >
+              <span>
+                0
+              </span>
+              <span />
+              <span />
+            </div>
+            <div
+              class="buttons"
+            >
+              <div
+                class="grid-row-one"
+              >
+                <button
+                  id="AC"
+                  type="button"
+                >
+                  AC
+                </button>
+                <button
+                  id="+/-"
+                  type="button"
+                >
+                  +/-
+                </button>
+                <button
+                  id="%"
+                  type="button"
+                >
+                  %
+                </button>
+                <button
+                  id="÷"
+                  type="button"
+                  value="division"
+                >
+                  ÷
+                </button>
+              </div>
+              <div
+                class="grid-row-two"
+              >
+                <button
+                  id="7"
+                  type="button"
+                  value="7"
+                >
+                  7
+                </button>
+                <button
+                  id="8"
+                  type="button"
+                  value="8"
+                >
+                  8
+                </button>
+                <button
+                  id="9"
+                  type="button"
+                  value="9"
+                >
+                  9
+                </button>
+                <button
+                  id="x"
+                  type="button"
+                  value="*"
+                >
+                  x
+                </button>
+              </div>
+              <div
+                class="grid-row-three"
+              >
+                <button
+                  id="4"
+                  type="button"
+                  value="4"
+                >
+                  4
+                </button>
+                <button
+                  id="5"
+                  type="button"
+                  value="5"
+                >
+                  5
+                </button>
+                <button
+                  id="6"
+                  type="button"
+                  value="6"
+                >
+                  6
+                </button>
+                <button
+                  id="-"
+                  type="button"
+                  value="-"
+                >
+                  -
+                </button>
+              </div>
+              <div
+                class="grid-row-four"
+              >
+                <button
+                  id="1"
+                  type="button"
+                  value="1"
+                >
+                  1
+                </button>
+                <button
+                  id="2"
+                  type="button"
+                  value="2"
+                >
+                  2
+                </button>
+                <button
+                  id="3"
+                  type="button"
+                  value="3"
+                >
+                  3
+                </button>
+                <button
+                  id="+"
+                  type="button"
+                  value="+"
+                >
+                  +
+                </button>
+              </div>
+              <div
+                class="grid-row-five"
+              >
+                <button
+                  id="0"
+                  type="button"
+                  value="0"
+                >
+                  0
+                </button>
+                <button
+                  id="."
+                  type="button"
+                  value="."
+                >
+                  .
+                </button>
+                <button
+                  id="="
+                  type="button"
+                  value="="
+                >
+                  =
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="App"
+    >
+      <header
+        class="nav-header"
+      >
+        <h1
+          class="title-header"
+        >
+          Math Magician
+        </h1>
+        <div
+          class="navbar-link"
+        >
+          <a
+            aria-current="page"
+            class="nav-active active"
+            href="/"
+          >
+            Home
+          </a>
+          <a
+            class="nav-active"
+            href="/Calculator"
+          >
+            Calculator
+          </a>
+          <a
+            class="nav-active"
+            href="/Quote"
+          >
+            Quote
+          </a>
+        </div>
+      </header>
+      <div
+        class="calculation-interface"
+      >
+        <h1>
+          Let's do some math !
+        </h1>
+        <div
+          class="my-calculator"
+        >
+          <div
+            class="Monitor"
+          >
+            <span>
+              0
+            </span>
+            <span />
+            <span />
+          </div>
+          <div
+            class="buttons"
+          >
+            <div
+              class="grid-row-one"
+            >
+              <button
+                id="AC"
+                type="button"
+              >
+                AC
+              </button>
+              <button
+                id="+/-"
+                type="button"
+              >
+                +/-
+              </button>
+              <button
+                id="%"
+                type="button"
+              >
+                %
+              </button>
+              <button
+                id="÷"
+                type="button"
+                value="division"
+              >
+                ÷
+              </button>
+            </div>
+            <div
+              class="grid-row-two"
+            >
+              <button
+                id="7"
+                type="button"
+                value="7"
+              >
+                7
+              </button>
+              <button
+                id="8"
+                type="button"
+                value="8"
+              >
+                8
+              </button>
+              <button
+                id="9"
+                type="button"
+                value="9"
+              >
+                9
+              </button>
+              <button
+                id="x"
+                type="button"
+                value="*"
+              >
+                x
+              </button>
+            </div>
+            <div
+              class="grid-row-three"
+            >
+              <button
+                id="4"
+                type="button"
+                value="4"
+              >
+                4
+              </button>
+              <button
+                id="5"
+                type="button"
+                value="5"
+              >
+                5
+              </button>
+              <button
+                id="6"
+                type="button"
+                value="6"
+              >
+                6
+              </button>
+              <button
+                id="-"
+                type="button"
+                value="-"
+              >
+                -
+              </button>
+            </div>
+            <div
+              class="grid-row-four"
+            >
+              <button
+                id="1"
+                type="button"
+                value="1"
+              >
+                1
+              </button>
+              <button
+                id="2"
+                type="button"
+                value="2"
+              >
+                2
+              </button>
+              <button
+                id="3"
+                type="button"
+                value="3"
+              >
+                3
+              </button>
+              <button
+                id="+"
+                type="button"
+                value="+"
+              >
+                +
+              </button>
+            </div>
+            <div
+              class="grid-row-five"
+            >
+              <button
+                id="0"
+                type="button"
+                value="0"
+              >
+                0
+              </button>
+              <button
+                id="."
+                type="button"
+                value="."
+              >
+                .
+              </button>
+              <button
+                id="="
+                type="button"
+                value="="
+              >
+                =
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
